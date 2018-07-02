@@ -27,3 +27,5 @@ EXPOSE 8899
 WORKDIR /home/playground
 
 ENTRYPOINT ["jupyter", "notebook", "--allow-root", "--no-browser", "--port", "8899", "--ip", "'*'"]
+
+# Hello World!
